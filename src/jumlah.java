@@ -20,7 +20,6 @@ public class jumlah {
         t.nilaiUAS = scan.nextFloat();
 
         System.out.println("Hasil Rata-Rata : " + t.rataRata(t.nilaiTugas, t.nilaiUTS, t.nilaiUAS));
-
         if (t.rataRata(t.nilaiTugas, t.nilaiUTS, t.nilaiUAS) >= 80
                     && t.rataRata(t.nilaiTugas, t.nilaiUTS, t.nilaiUAS) <= 100) {
                 System.out.println("Grade A");
