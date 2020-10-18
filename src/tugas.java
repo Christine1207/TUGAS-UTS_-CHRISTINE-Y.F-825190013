@@ -2,6 +2,7 @@ public class tugas {
     // class tugas
     String nama;
     int nim;
+    int n;
     float nilaiTugas;
     float nilaiUTS;
     float nilaiUAS;
@@ -67,4 +68,5 @@ public class tugas {
         return (nilaiTugas + nilaiUTS + nilaiUAS)/3;
     }
 }
+
 

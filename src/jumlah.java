@@ -20,8 +20,30 @@ public class jumlah {
         t.nilaiUAS = scan.nextFloat();
 
         System.out.println("Hasil Rata-Rata : " + t.rataRata(t.nilaiTugas, t.nilaiUTS, t.nilaiUAS));
+
+        if (t.rataRata(t.nilaiTugas, t.nilaiUTS, t.nilaiUAS) >= 80
+                    && t.rataRata(t.nilaiTugas, t.nilaiUTS, t.nilaiUAS) <= 100) {
+                System.out.println("Grade A");
+            } else if (t.rataRata(t.nilaiTugas, t.nilaiUTS, t.nilaiUAS) >= 73
+                    && t.rataRata(t.nilaiTugas, t.nilaiUTS, t.nilaiUAS) <= 79.99) {
+                System.out.println("Garde  B+");
+            } else if (t.rataRata(t.nilaiTugas, t.nilaiUTS, t.nilaiUAS) >= 66
+                    && t.rataRata(t.nilaiTugas, t.nilaiUTS, t.nilaiUAS) <= 72.99) {
+                System.out.println("Garde  B");
+            } else if (t.rataRata(t.nilaiTugas, t.nilaiUTS, t.nilaiUAS) >= 58
+                    && t.rataRata(t.nilaiTugas, t.nilaiUTS, t.nilaiUAS) <= 65.99) {
+                System.out.println("Garde  C+");
+            } else if (t.rataRata(t.nilaiTugas, t.nilaiUTS, t.nilaiUAS) >= 51
+                    && t.rataRata(t.nilaiTugas, t.nilaiUTS, t.nilaiUAS) <= 57.99) {
+                System.out.println("Garde  C");
+            } else if (t.rataRata(t.nilaiTugas, t.nilaiUTS, t.nilaiUAS) >= 41
+                    && t.rataRata(t.nilaiTugas, t.nilaiUTS, t.nilaiUAS) <= 50.99) {
+                System.out.println("Garde  D");
+            } else if (t.rataRata(t.nilaiTugas, t.nilaiUTS, t.nilaiUAS) >= 0
+                    && t.rataRata(t.nilaiTugas, t.nilaiUTS, t.nilaiUAS) <= 40.99) {
+                System.out.println("Garde  E");
+            }
+
+        System.out.print("Thank You For Your Checking ^^");
+        }
     }
-
-}
-
-
