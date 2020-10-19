@@ -2,12 +2,15 @@ public class tugas {
     // class tugas
     String nama;
     int nim;
+    int n;
+    String grade;
     float nilaiTugas;
     float nilaiUTS;
     float nilaiUAS;
 
     // constructor
     public tugas() {
+
         this.nama = nama;
         this.nim = nim;
         this.nilaiTugas = nilaiTugas;
